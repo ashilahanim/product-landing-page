@@ -28,6 +28,7 @@ nav {
     padding: 0 50px;
     height: 50px;
     align-items: center;
+    background-color: ;
 }
 
 nav .right {
@@ -39,6 +40,6 @@ nav .right {
 nav .left {
     gap: 15px;
     font-size: 20px;
-    margin: 0 20px;
+    margin: 0 10px;
     gap: 30px;
 }
