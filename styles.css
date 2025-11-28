@@ -1,17 +1,44 @@
-root {
-
-}
 
 * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-    font-family: 'Raleway', serif;
+html {
+    scroll-behavior: smooth;
+
 }
 
 
-.raleway-<uniquifier> {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+body {
+    font-family: "Reenie Beanie", sans-serif;
+    background-color: bisque;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 50px;
+    align-items: center;
+}
+
+nav .right {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(170, 23, 72);
+}
+
+nav .left {
+    gap: 15px;
+    font-size: 20px;
+    margin: 0 20px;
+    gap: 30px;
+}
