@@ -123,3 +123,34 @@ ul {
     margin-bottom: 10px;
     font-size: 20px;
 }
+
+.signup-form form,
+.signin-form form {
+    display: flex;
+    flex-direction: column;   /* stack items vertically */
+    gap: 15px;                /* spacing between items */
+    width: 300px;
+    margin: 0 auto;           /* center the form */
+}
+
+.signup-form input,
+.signin-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup-form button,
+.signin-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fcabab;
+    font-weight: bold;
+    cursor: pointer;
+}
+.signup-form button:hover,
+.signin-form button:hover {
+    background-color: rgb(170, 23, 72);
+    color: white;
+}
