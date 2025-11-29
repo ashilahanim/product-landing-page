@@ -20,6 +20,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 /* Navigation */
 
 nav {
@@ -28,7 +29,8 @@ nav {
     padding: 0 50px;
     height: 50px;
     align-items: center;
-    background-color: ;
+    background-color: #fcabab;
+    margin-bottom: 10px;
 }
 
 nav .right {
@@ -40,6 +42,47 @@ nav .right {
 nav .left {
     gap: 15px;
     font-size: 20px;
-    margin: 0 10px;
-    gap: 30px;
+    font-weight: 600;
+    display: flex;
+    gap: 50px;
+}
+
+/*Sales and Membership*/
+
+.membership {
+    display: grid;
+    align-items: center;
+    background-color: rgb(111, 156, 149);
+    text-align: center;
+    color: black;
+    padding: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 20px;
+}
+
+/* Categories Section */
+.categories {
+    display: grid;
+    align-items: center;
+    background-color: rgb(111, 156, 149);
+    text-align: center;
+    color: black;
+    padding: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 20px;
+}
+
+
+main {
+    display: grid;
+    align-items: center;
+    background-color: rgb(111, 156, 149);
+    text-align: center;
+    color: black;
+    padding: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 20px;
 }
