@@ -71,7 +71,10 @@ nav .left {
     padding: 30px;
     margin-left: 70px;
     margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 20px;
+    list-style-type: none;
 }
 
 
@@ -85,4 +88,5 @@ main {
     margin-left: 70px;
     margin-right: 70px;
     font-size: 20px;
+    list-style: none;
 }
