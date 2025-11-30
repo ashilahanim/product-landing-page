@@ -12,7 +12,7 @@ html {
 
 
 body {
-    font-family: "Afacad", sans-serif;
+    font-family: "Merriweather", sans-serif;
     background-color: bisque;
 }
 
@@ -31,14 +31,14 @@ nav {
     padding: 0 50px;
     height: 50px;
     align-items: center;
-    background-color: #fcabab;
+    background-color: #ffffff;
     margin-bottom: 10px;;
 }
 
 nav .right {
     font-size: 20px;
     font-weight: 600;
-    color: rgb(170, 23, 72);
+    color: rgb(0, 0, 0);
 }
 
 nav .left {
@@ -50,16 +50,30 @@ nav .left {
 }
 
 /*Sales and Membership*/
-
-.membership {
+.discount {
     display: grid;
     align-items: center;
-    background-color: rgb(111, 156, 149);
+    background-color: rgb(216, 216, 216);
     text-align: center;
     color: black;
     padding: 30px;
     margin-left: 70px;
     margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.membership {
+    display: grid;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    color: black;
+    padding: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 20px;
 }
 
@@ -68,7 +82,7 @@ nav .left {
 .categories {
     display: grid;
     align-items: center;
-    background-color: rgb(111, 156, 149);
+    background-color: rgb(216, 216, 216);
     text-align: center;
     color: black;
     padding: 30px;
@@ -84,22 +98,90 @@ ul {
     padding: 0;
 }
 
-.category-item {
+.children-books-category {
     display: grid;
     align-items: center;
-    background-color: rgb(111, 156, 149);
+    background-color: rgb(216, 216, 216);
     text-align: center;
     color: black;
     padding: 30px;
     margin-left: 70px;
     margin-right: 70px;
     font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.young-adult-category {
+    display: grid;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    color: black;
+    padding: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.adult-category {
+    display: grid;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    color: black;
+    padding: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.fantasy-category {
+    display: grid;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    color: black;
+    padding: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.thriller-category {
+    display: grid;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    color: black;
+    padding: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.horror-category {
+    display: grid;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    color: black;
+    padding: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .signup-form {
     display: grid;
     align-items: center;
-    background-color: rgb(111, 156, 149);
+    background-color: rgb(216, 216, 216);
     text-align: center;
     color: black;
     padding: 30px;
@@ -113,7 +195,7 @@ ul {
 .signin-form {
     display: grid;
     align-items: center;
-    background-color: rgb(111, 156, 149);
+    background-color: rgb(216, 216, 216);
     text-align: center;
     color: black;
     padding: 30px;
