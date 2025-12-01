@@ -14,6 +14,7 @@ html {
 body {
     font-family: "Merriweather", sans-serif;
     background-color: bisque;
+    ;
 }
 
 a {
@@ -50,53 +51,80 @@ nav .left {
 }
 
 /*Sales and Membership*/
-.discount {
-    display: grid;
-    align-items: center;
+.categories-discount-membership-flexbox {
+    display: flex;
+    gap: 8px;
+    padding: 10px;
+}
+
+.categories {
     background-color: rgb(216, 216, 216);
     text-align: center;
-    color: black;
-    padding: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
+    font-size: 15px;
+    height: 50vh; /* Full viewport height */
+    width: 220px;
+    background-color: #333;
+    color: white;
+    position: sticky; /* Stays in place */
     margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul li {
+    list-style: none;
+    padding: 0;
+    color: white;
+    margin: 10px 10px 10px 10px;
+} 
+ul li a{
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+.discount {
+    align-items: center;
+    background-color: rgb(255, 138, 138);
+    text-align: justify;
+    color: black;
+    font-size: 15px;
+    flex: 1; /* equal width */
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.discount h2 {
+    text-align: center;
 }
 .membership {
-    display: grid;
     align-items: center;
-    background-color: rgb(216, 216, 216);
-    text-align: center;
+    background-color: rgb(255, 138, 138);
+    text-align: justify;
     color: black;
-    padding: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
+    font-size: 15px;
+    flex: 1; /* equal width */
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-right: 10px;
+}
+
+.membership h2 {
+    text-align: center;
+}
+
+.membership h2 p {
+    padding: auto;
+    margin: auto;
 }
 
 /* Categories Section */
 
-.categories {
-    display: grid;
-    align-items: center;
-    background-color: rgb(216, 216, 216);
-    text-align: center;
-    color: black;
-    padding: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
 
 .children-books-category {
     display: grid;
@@ -105,8 +133,8 @@ ul {
     text-align: center;
     color: black;
     padding: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -119,8 +147,8 @@ ul {
     text-align: center;
     color: black;
     padding: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -132,8 +160,8 @@ ul {
     text-align: center;
     color: black;
     padding: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -145,8 +173,8 @@ ul {
     text-align: center;
     color: black;
     padding: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -158,8 +186,8 @@ ul {
     text-align: center;
     color: black;
     padding: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -171,8 +199,8 @@ ul {
     text-align: center;
     color: black;
     padding: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -185,8 +213,8 @@ ul {
     text-align: center;
     color: black;
     padding: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -199,8 +227,8 @@ ul {
     text-align: center;
     color: black;
     padding: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -235,4 +263,10 @@ ul {
 .signin-form button:hover {
     background-color: rgb(170, 23, 72);
     color: white;
+}
+
+.membership a {
+    font-weight: bold;
+    color: rgb(54, 6, 38);
+    text-decoration: underline;
 }
